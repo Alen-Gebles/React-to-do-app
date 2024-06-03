@@ -35,7 +35,9 @@ body {
     justify-content: center;
   }
   .widthMain{
+    width: calc(100vw - 40px);
     max-width: 600px;
+    margin-inline: 20px !important;
   }
   .shadow{
     box-shadow: inset 1px 1px 3px rgba(255, 255, 255, 0.196), 3px 3px 10px rgba(0, 0, 0, 0.245);
